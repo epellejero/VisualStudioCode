@@ -1,0 +1,28 @@
+p{
+    font-size: 12cm;
+    font-family: Arial, Helvetica;
+    font-weight: normal;
+    text-align: left;
+}
+
+h1{
+    font-size: 36cm;
+    font-family: Verdana, Arial;
+    text-decoration: underline;
+    text-align: center;
+    background-color: red;
+}
+
+h2{
+    font-size: 12cm;
+    font-family: cursive, 'Times New Roman';
+    text-decoration: underline;
+    text-align: center;
+    background-color: orange;
+}
+
+body{
+    background-color: #cc0000;
+    font-family: Arial;
+    color: white;
+}

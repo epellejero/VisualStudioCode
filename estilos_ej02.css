@@ -1,0 +1,44 @@
+p{
+    font-size: 12cm;
+    font-family: Arial, Helvetica;
+    font-weight: normal;
+    text-align: left;
+}
+
+/*
+h1{
+    font-size: 36cm;
+    font-family: Verdana, Arial;
+    text-decoration: underline;
+    text-align: center;
+    background-color: red;
+}
+*/
+
+h2{
+    font-size: 12cm;
+    font-family: cursive, 'Times New Roman';
+    text-decoration: underline;
+    text-align: center;
+    background-color: orange;
+}
+
+/*
+body{
+    background-color: #cc0000;
+    font-family: Arial;
+    color: white;
+}
+*/
+
+div:hover{
+    background-color: #CC0000;
+    text-decoration: white;
+    color:white; 
+}
+
+p::selection {
+    background: green;
+    color: black;
+    text-shadow: 1px 1px #fff;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <section>
+        <div>
+            <form action="/controlador-registro" method="POST" class="form-registro" enctype="multipart/form-data">
+                <div>
+                    <label for="nombre"></label>
+                    <input name="nombre" type="text" placeholder="Nombre y apellido" required>
+                </div>
+                <br>
+                <div>
+                    <label for="mail"></label>
+                    <input name="mail" type="mail" placeholder="Correo electronico" required>                
+                </div>
+                <br>
+                <div>
+                    <label for="number"></label>
+                    <input type="number" type="number" placeholder="1234567890" required>
+                </div>
+                <br>
+                <div>
+                    <label for="femenino"></label>
+                    <input type="femenino" type="radio" value="f"/>
+                    <label for="masculino"></label>
+                    <input type="masculino" type="radio" value="m"/>
+                    <label for="other"></label>
+                    <input type="other" type="radio" value="x"/>
+                </div>
+                <br>
+                <div>
+                    <label for="femenino">Femenino</label>
+                    <input type="femenino" type="checkbox" value="f"/>
+                    <label for="masculino">Masculino</label>
+                    <input type="masculino" type="checkbox" value="m"/>
+                    <label for="other">Otro</label>
+                    <input type="other" type="checkbox" value="x"/>
+                </div>
+                <br>
+                <div>
+                    <label for="pais">Pais de origen</label>
+                    <select name="pais">
+                        <option value="arg">ARG</option>
+                        <option value="bra">BRA</option>
+                        <option value="urg">URG</option>
+                        <option value="par">PAR</option>
+                        <option value="chi">CHI</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="date">Fecha</label>
+                    <input name="date" type="date" >
+                </div>
+                <br>
+                <div>
+                    <label for="image"></label>
+                    <input name="image" type="file">
+                </div>
+                <br>
+                <button type="submit">Enviar info</button>
+            </form>
+
+        </div>
+    </section>
+</body>
+</html>
+/* Keyword values */
+border-top-style: none;
+border-top-style: hidden;
+border-top-style: dotted;
+border-top-style: dashed;
+border-top-style: solid;
+border-top-style: double;
+border-top-style: groove;
+border-top-style: ridge;
+border-top-style: inset;
+border-top-style: outset;
+
+/* vertical | horizontal */
+border-style: dotted solid;
+
+/* top | horizontal | bottom */

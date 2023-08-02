@@ -1,0 +1,38 @@
+h1{
+    font-size: 18m;
+    color:  rgb(80, 117, 117);
+}
+
+strong,.a1,.especial1 {
+    color: #CC0000;
+}
+
+em,h2 {
+    color: blue;
+}
+
+.em1,.a2,tbody>tr>td {
+    color: green;
+}
+
+.destacado,.strong1,.especial {
+    color: orange;
+}
+
+#adicional {
+    color:rgb(66, 87, 66);
+}
+
+#especial, .especial {
+    color: violet;
+}
+
+.tabla {
+    border: 1px solid black; /* Aplica un borde de 1 píxel sólido de color negro a toda la tabla */
+    border-collapse: collapse; /* Combina los bordes adyacentes para que parezcan una línea continua */
+}
+
+.tabla th>.tabla td {
+    border: 1px solid black; /* Aplica un borde de 1 píxel sólido de color negro a todas las celdas de encabezado y datos */
+}
+
